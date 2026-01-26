@@ -1,7 +1,8 @@
 
 print('Hello there, it is vyral again with another small code i played with.')
 print('')
-
+# Pretty good code. I am sort of proud of myself.
+# It converts numbers in denary or base 10 to numbers in other bases or vice versa.
 
 
 def numberbase_checker(number, base):
@@ -74,3 +75,4 @@ def numberbase_converter():
 
 
 numberbase_converter()
+
