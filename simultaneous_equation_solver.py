@@ -26,7 +26,11 @@ while True:
         det = float(np.linalg.det(det_matrix))
         det_x = float(np.linalg.det(x_matrix))
         det_y = float(-np.linalg.det(y_matrix))
+        if det ==0 :
+            print("This equation can't be computed!")
+            continue
         x = det_x/ det
+
         y = det_y/det
         for s in [x,y]:
             if s == "nan":
